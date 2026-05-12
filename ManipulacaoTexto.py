@@ -60,3 +60,9 @@ print(f"É só letra? {nomeCompleto.isalpha()}")
 print(f"É alfanumérico? {nomeCompleto.isalnum()}")
 print(f"Está tudo minúsculo? {nomeCompleto.islower()}")
 print(f"Está tudo maiúsculo? {nomeCompleto.isupper()}")
+
+#input
+textoInput = "Digite seu nome: "
+textoPrint = "Seu nome é"
+nome = input(textoInput)
+print(textoPrint, nome)
