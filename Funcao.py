@@ -17,4 +17,3 @@ def calcular_imc(peso, altura):
 # Usando a função
 meu_imc = calcular_imc(80, 1.80)
 print(f"Seu IMC e: {meu_imc:.2f}")
-
